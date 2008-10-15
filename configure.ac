@@ -1,4 +1,4 @@
-AC_INIT(ceferino, 0.97.8)
+AC_INIT(ceferino, 0.97.9)
 AM_INIT_AUTOMAKE
 AC_PREREQ([2.50])
 AM_CONFIG_HEADER(config.h)
