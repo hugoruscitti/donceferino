@@ -1,10 +1,13 @@
 AC_INIT(ceferino, 0.97.9)
-AM_INIT_AUTOMAKE
+AC_CONFIG_AUX_DIR([.])
+AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
 AC_PREREQ([2.50])
-AM_CONFIG_HEADER(config.h)
+AC_CONFIG_SRCDIR([src])
+AC_CONFIG_HEADER([config.h])
+
+AM_MAINTAINER_MODE
 
 AC_PROG_CXX
-
 
 dnl gettext, soporte para idiomas
 AM_GNU_GETTEXT
@@ -13,25 +16,7 @@ ALL_LINGUAS="es fr ca"
 
 GETTEXT_PACKAGE=$PACKAGE
 AC_SUBST(GETTEXT_PACKAGE)
-dnl AC_DEFINE([GETTEXT_PACKAGE],[],[...])
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], ["${GETTEXT_PACKAGE}"], [gettext domain])
-
-dnl localedir="${datadir}/locale"
-
-
-
-
-
-
-
-dnl soporte de internacionalización
-dnl ALL_LINGUAS = "es"
-dnl AM_GNU_GETTEXT
-dnl GETTEXT_PACKAGE=ceferino
-dnl AC_SUBST (GETTEXT_PACKAGE)
-dnl AC_DEFINE_UNQUOTED (GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [The gettext package])
-
-
 
 dnl Busca las bibliotecas SDL
 AC_CHECK_LIB(SDL, SDL_Init, , \
@@ -52,7 +37,6 @@ AC_OUTPUT([
 	src/Makefile
 	data/Makefile
 	po/Makefile.in
-	intl/Makefile
 	data/ima/Makefile
 	data/levels/Makefile
 	data/music/Makefile
