@@ -17,6 +17,7 @@
 	* src/main.cc, src/fuente2.cc: Explicitly use latin1 encoded, to enable
 	the correct display of accented letters on utf-8 platforms.
 	* src/fuente2.cc: Show the loading prompt at the right time.
+	* src/fuente2.cc: Use the same right margin as the left margin.
 
 2011-12-17  gettextize  <bug-gnu-gettext@gnu.org>
 
