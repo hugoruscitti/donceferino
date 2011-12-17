@@ -1,6 +1,8 @@
-SUBDIRS = data src po intl
+SUBDIRS = data src po
 
-EXTRA_DIST = AUTHORS ChangeLog NEWS README THANKS TODO \
+EXTRA_DIST = ./config.rpath m4/ChangeLog  AUTHORS ChangeLog NEWS README THANKS TODO \
 	intltool-extract.in intltool-merge.in intltool-update.in
 
 CLEANFILES = intltool-extract intltool-merge intltool-update
+
+ACLOCAL_AMFLAGS = -I m4

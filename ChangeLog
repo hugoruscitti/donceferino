@@ -1,3 +1,21 @@
+2011-12-17  Roland Clobus <rclobus@rclobus.nl>
+	* configure.ac: Update for the new generated scripts.
+	* mkinstalldirs, m4/ChangeLog, configure, config.rpath, Makefile.in,
+	src/Makefile.in, depcomp, config.guess, config.sub, config.h.in,
+	ABOUT-NLS, data/music/Makefile.in, data/Makefile.in,
+	data/ima/Makefile.in, data/levels/Makefile.in, data/sounds/Makefile.in,
+	missing, Makefile.am, aclocal.m4, po/Rules-quot, po/ChangeLog,
+	po/Makefile.in.in, install-sh: Updated due to 'gnome-autogen.sh',
+	this is needed for the newer version number in 'configure'.
+	Many of these files should be removed from the svn repository, because
+	they can be regenerated.
+
+2011-12-17  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Remove intl.
+	(ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): Add ./config.rpath, m4/ChangeLog.
+
 sáb jul 14 17:39:30 ART 2007
 	- Ahora el protagonista puede ser controlado con las teclas "w,a,s,d"
 	"h,j,k,l" (como en el editor 'vi'), y las teclas "1, 2 y 3".
