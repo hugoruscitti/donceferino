@@ -76,7 +76,7 @@ void audio :: iniciar(int _hab_sonido, int _hab_musica)
 	}
 	else
 	{
-		printf(_("- Audio system disable from options\n"));
+		printf(_("- Audio system disabled from options\n"));
 		return;
 	}
 
@@ -84,7 +84,7 @@ void audio :: iniciar(int _hab_sonido, int _hab_musica)
 	if (hab_sonido)
 		cargar_sonidos();
 	else
-		printf(_("- Sound system disable from options\n"));
+		printf(_("- Sound system disabled from options\n"));
 
 
 	if (hab_musica)
@@ -93,7 +93,7 @@ void audio :: iniciar(int _hab_sonido, int _hab_musica)
 		cargar_musicas();
 	}
 	else
-		printf(_("- Music system disable from options\n"));
+		printf(_("- Music system disabled from options\n"));
 }
 
 
@@ -153,7 +153,7 @@ void audio :: cargar_sonidos(void)
 			imprimir_error();
 			printf(_("Can't load '%s': %s\n"), nombres[i],\
 					SDL_GetError());
-			printf(_("- Disable sound system because of"\
+			printf(_("- Disabled sound system because of"\
 						" errors\n"));
 			hab_sonido=0;
 			return;
@@ -187,7 +187,7 @@ void audio :: cargar_musicas(void)
 			printf(_("Can't load '%s': %s\n"), nombres[i], \
 					SDL_GetError());
 			
-			printf(_("- Disable music system because of errors\n"));
+			printf(_("- Disabled music system because of errors\n"));
 			hab_musica=0;
 			return;
 		}

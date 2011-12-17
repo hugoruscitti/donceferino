@@ -101,7 +101,7 @@ void marcas :: imprimir(void)
 void marcas :: imprimir_puntajes (void)
 {
 	pmundo->fuente->myprintf (screen, 320, 0, NULL, NULL, false, \
-			CENTRADO, _("best point"));
+			CENTRADO, _("highest scores"));
 	
 	for (int i = 0; i < 7; i ++)
 	{
@@ -146,7 +146,7 @@ void marcas :: cargar_marcas(void)
 
 	if (!arch)
 	{
-		printf(_("Can't open the marcs file\n"));
+		printf(_("Can't open the scores file\n"));
 		cargar_marcas_estandar();
 		arch = fopen(ruta_completa, "rb");
 	}

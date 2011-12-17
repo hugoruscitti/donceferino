@@ -887,7 +887,7 @@ int juego :: es_marca(int puntaje)
 
 	if (arch == NULL)
 	{
-		printf(_("Can't open the marcs file\n"));
+		printf(_("Can't open the scores file\n"));
 		cargar_marcas_estandar();
 		arch = fopen(ruta_completa, "rb");
 	}
@@ -969,7 +969,7 @@ void juego :: salvar_marca_en_archivo(void)
 
 	if (arch == NULL)
 	{
-		printf(_("Can't open the marcs file\n"));
+		printf(_("Can't open the scores file\n"));
 		return;
 	}
 	else

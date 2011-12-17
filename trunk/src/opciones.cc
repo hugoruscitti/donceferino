@@ -71,7 +71,7 @@ int opciones :: iniciar(class mundo *_pmundo, int _modo_video, SDL_Surface *_scr
 
 
 	pmundo->fuente->myprintf (screen, 0, 50, NULL, NULL, false, CONSALTO, \
-			_("This feature has been temporaly disabled, please run 'ceferinosetup' instead."));
+			_("This feature has been temporarily disabled, please run 'ceferinosetup' instead."));
 	
 	imprimir_pie ();
 

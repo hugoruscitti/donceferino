@@ -324,11 +324,11 @@ void cargar_marcas_estandar(void)
 
 	if (arch)
 	{
-		printf(_("Creating the marcs file '%s'\n"), ruta_completa);
+		printf(_("Creating the scores file '%s'\n"), ruta_completa);
 		fwrite(vec_marcas, sizeof(struct entrada), 7, arch);
 		fclose(arch);
 	}
 	else
-		printf(_("Can't create the marcs file '%s'\n"), ruta_completa);
+		printf(_("Can't create the scores file '%s'\n"), ruta_completa);
 
 }

@@ -187,16 +187,16 @@ void creditos :: cambiar_etapa(int nueva)
 		case WEB:
 	strcpy(mensaje,\
 _(\
-"You can know more about what we are doing visitting the web site of the "\
-"Losers Proyect:\n\nwww.losersjuegos.com.ar"));
+"You can know more about what we are doing visiting the web site of the "\
+"Losers Project:\n\nwww.losersjuegos.com.ar"));
 
 			break;
 
 		case GPL:
 			strcpy(mensaje,\
 _(\
-"License:\n\nThis program is free software and is distributed under the"\
-"terms of the GPL license. please read the copying file "\
+"License:\n\nThis program is free software and is distributed under the "\
+"terms of the GPL license. Please read the file COPYING "\
 "to obtain more information."));
 			break;
 
