@@ -191,7 +191,7 @@ void final :: cambiar_etapa(int etapa)
 		break;
 
 		case F3:
-		strcpy(mensaje,_("He escapes with the spaceship rescuing the cow."));
+		strcpy(mensaje,_("He escapes from the spaceship rescuing the cow."));
 		break;
 
 		case F4:
