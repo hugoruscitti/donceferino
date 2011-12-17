@@ -173,14 +173,7 @@ fuente2 :: ~fuente2 ()
 SDL_Rect fuente2 :: obtener_referencia (char letra, bool transparente)
 {
 	static SDL_Rect src;
-	static char letras [] = \
-				"!\"#$%&'()*+,-./0123456789:;<=>?" \
-				"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`" \
-				"abcdefghijklmnopqrstuvwxyz" \
-				"{|}~¡¢£€¥Š§š©ª«¬­®¯°±²³Žµ¶·ž¹º»ŒœŸ¿" \
-				"ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäå" \
-				"æçèéêëìíîïðñòóôõö÷øùúûüýþÿ";
-				"àèìòùâêîôû";
+	unsigned char l = (unsigned char)letra;
 
 	if (letra == ' ' || letra == '\0' || letra == '\n')
 	{
@@ -188,26 +181,18 @@ SDL_Rect fuente2 :: obtener_referencia (char letra, bool transparente)
 		return src;
 	}
 
-	for (int i = 0; letras [i] != '\0'; i ++)
-	{
-		if (letras [i] == letra)
-		{
-			if (transparente)
-			{
-				src = rects [i];
-				src.y += src.h;
-				return src;
-			}
-			else
-			{
-				src = rects [i];
-				return src;
-			}
-		}
+	/* latin1: 0x21-0x7E, 0xA1-0xFF */
+	if (l >= 33 && l <= 126) {
+		src = rects[l - 33];
+	} else if (l >= 161) {
+		src = rects[l - 67];
+	} else {
+		src = rects[0];
+		printf (_("Character %u not found in font tiles\n"), (unsigned)l);
 	}
-
-	printf (_("'%c' not found in font tiles\n"), letra);
-	src = rects [0];
+	if (transparente) {
+		src.y += src.h;
+	}
 	return src;
 }
 
