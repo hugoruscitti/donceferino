@@ -35,6 +35,7 @@ fuente2 :: fuente2 (int modo)
 {
 	char ruta [1024] = DATADIR "/ima/fuente_2.png";
 
+	printf (_("+ Loading: %s\n"), ruta);
 	ima = IMG_Load (ruta);
 
 	if (ima == NULL)
@@ -57,8 +58,6 @@ fuente2 :: fuente2 (int modo)
 	letras = 0;
 
 	cargar_identificar_recs ();
-	
-	printf (_("+ Loading: %s\n"), ruta);
 }
 
 
