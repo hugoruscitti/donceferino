@@ -13,6 +13,7 @@
 	src/audio.cc, src/marcas.cc, src/juego.cc, src/nivel.cc,
 	src/libgrafico.cc, src/procesos.cc, src/fuente2.cc, src/opciones.cc,
 	src/mundo.cc: Fixed spelling errors in the English texts.
+	* src/marcas.cc: Align the scores.
 
 2011-12-17  gettextize  <bug-gnu-gettext@gnu.org>
 

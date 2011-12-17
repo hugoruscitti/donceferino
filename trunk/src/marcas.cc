@@ -116,7 +116,7 @@ void marcas :: imprimir_puntajes (void)
 		puntos[3] = (vec_marcas [i].puntos) % 10 + '0';
 		puntos[4] = '\0';
 
-		pmundo->fuente->myprintf (screen, 520, 60 + i * 50, NULL, \
+		pmundo->fuente->myprintf (screen, 500, 60 + i * 50, NULL, \
 				NULL, false, NINGUNO, puntos);
 	}
 	
