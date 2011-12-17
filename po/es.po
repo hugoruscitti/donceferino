@@ -22,7 +22,7 @@ msgstr "+ Iniciando sistema de audio: "
 #: src/audio.cc:79
 #, c-format
 msgid "- Audio system disable from options\n"
-msgstr "+ Sistema de audio deshabilitado desde opciones\n"
+msgstr "- Sistema de audio deshabilitado desde opciones\n"
 
 #: src/audio.cc:87
 #, c-format
@@ -32,7 +32,7 @@ msgstr "- Sistema de sonido deshabilitado desde opciones\n"
 #: src/audio.cc:96
 #, c-format
 msgid "- Music system disable from options\n"
-msgstr "- Sistema de músicas deshabilidato desde opciones\n"
+msgstr "- Sistema de músicas deshabilitado desde opciones\n"
 
 #: src/audio.cc:142
 #, c-format
@@ -64,9 +64,8 @@ msgid "how to play"
 msgstr "como jugar"
 
 #: src/comojugar.cc:70 src/marcas.cc:124
-#, fuzzy
 msgid "(escape to continue)"
-msgstr "(space para continuar)"
+msgstr "(escape para continuar)"
 
 #: src/creditos.cc:77 src/marcas.cc:65 src/opciones.cc:64
 #, c-format
