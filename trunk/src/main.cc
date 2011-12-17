@@ -42,7 +42,7 @@ int main (int argc, char * argv [])
 #ifdef ENABLE_NLS
 	printf ("Locale: %s\n", setlocale (LC_ALL, ""));
 	bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
-	bind_textdomain_codeset (GETTEXT_PACKAGE, "");
+	bind_textdomain_codeset (GETTEXT_PACKAGE, "latin1");
 	textdomain (GETTEXT_PACKAGE);
 #else
 	printf ("Locale: disabled\n");

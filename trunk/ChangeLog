@@ -14,6 +14,8 @@
 	src/libgrafico.cc, src/procesos.cc, src/fuente2.cc, src/opciones.cc,
 	src/mundo.cc: Fixed spelling errors in the English texts.
 	* src/marcas.cc: Align the scores.
+	* src/main.cc, src/fuente2.cc: Explicitly use latin1 encoded, to enable
+	the correct display of accented letters on utf-8 platforms.
 
 2011-12-17  gettextize  <bug-gnu-gettext@gnu.org>
 
