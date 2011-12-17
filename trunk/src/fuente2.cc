@@ -305,26 +305,27 @@ int fuente2 :: get_h (void)
 void fuente2 :: alinear_inferior (int * x1, int * y1, char * cadena)
 {
 	int f = 0;
-	int c = 20;
+	int c = 0;
 	char * palabra = cadena;
-	char * offset;
-	int limite_w = 640;/*(modo_reducido)? 320: 640;*/
+	int limite_w = 640 - 2 * 20 + get_w (' ');/*(modo_reducido)? 320: 640;*/
 	int limite_h = 480;/*(modo_reducido)? 240: 480;*/
+	int width;
 
 	while (palabra)
 	{
-		if (c + ancho_palabra (palabra) > limite_w)
+		width = ancho_palabra (palabra) + get_w (' ');
+		if (c + width > limite_w || *palabra == '\n')
 		{
 			/* salta una linea */
-			c = ancho_palabra (palabra) + get_w (' ');
+			c = width;
 			f += get_h ();
 		}
 		else
 		{
-			c += ancho_palabra (palabra) + get_w (' ');
+			c += width;
 		}
 		
-		palabra = strstr (palabra, " ");
+		palabra = saltar_palabra (palabra);
 
 		if (palabra)
 		{
@@ -372,21 +373,23 @@ int fuente2 :: get_w (char letra)
 void fuente2 :: imprimir_con_salto (SDL_Surface * dst, char * cadena, int x, \
 		int y, SDL_Rect *rect, int * nrect, bool transparente)
 {
-	int limite_w = 640;/*(modo_reducido)? 320: 640;*/
+	int limite_w = 640 - 2 * 20 + get_w (' ');/*(modo_reducido)? 320: 640;*/
 	char * palabra = cadena;
-	x = 20;
+	int width;
+	x = 0;
 
 	while (palabra)
 	{
-		if (x + ancho_palabra (palabra) > limite_w)
+		width = ancho_palabra (palabra) + get_w (' ');
+		if (x + width > limite_w)
 		{
-			x = 20;
+			x = 0;
 			y += get_h ();
 		}
 
-		imprimir_palabra (dst, palabra, x, y, rect, nrect,transparente);
+		imprimir_palabra (dst, palabra, 20 + x, y, rect, nrect,transparente);
 		
-		x += ancho_palabra (palabra) + get_w (' ');
+		x += width;
 
 		palabra = saltar_palabra (palabra);
 
@@ -394,7 +397,7 @@ void fuente2 :: imprimir_con_salto (SDL_Surface * dst, char * cadena, int x, \
 		{
 			if (palabra [0] == '\n')
 			{
-				x = 20;
+				x = 0;
 				y += get_h ();
 			}
 
