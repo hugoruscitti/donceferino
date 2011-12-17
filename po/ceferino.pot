@@ -6,12 +6,13 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: ceferino 0.97.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-14 19:21-0300\n"
+"POT-Creation-Date: 2011-12-17 20:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,17 +24,17 @@ msgstr ""
 
 #: src/audio.cc:79
 #, c-format
-msgid "- Audio system disable from options\n"
+msgid "- Audio system disabled from options\n"
 msgstr ""
 
 #: src/audio.cc:87
 #, c-format
-msgid "- Sound system disable from options\n"
+msgid "- Sound system disabled from options\n"
 msgstr ""
 
 #: src/audio.cc:96
 #, c-format
-msgid "- Music system disable from options\n"
+msgid "- Music system disabled from options\n"
 msgstr ""
 
 #: src/audio.cc:142
@@ -48,7 +49,7 @@ msgstr ""
 
 #: src/audio.cc:156
 #, c-format
-msgid "- Disable sound system because of errors\n"
+msgid "- Disabled sound system because of errors\n"
 msgstr ""
 
 #: src/audio.cc:175
@@ -58,7 +59,7 @@ msgstr ""
 
 #: src/audio.cc:190
 #, c-format
-msgid "- Disable music system because of errors\n"
+msgid "- Disabled music system because of errors\n"
 msgstr ""
 
 #: src/comojugar.cc:37 src/menu.cc:86
@@ -92,8 +93,8 @@ msgstr ""
 
 #: src/creditos.cc:189
 msgid ""
-"You can know more about what we are doing visitting the web site of the "
-"Losers Proyect:\n"
+"You can know more about what we are doing visiting the web site of the "
+"Losers Project:\n"
 "\n"
 "www.losersjuegos.com.ar"
 msgstr ""
@@ -102,13 +103,13 @@ msgstr ""
 msgid ""
 "License:\n"
 "\n"
-"This program is free software and is distributed under theterms of the GPL "
-"license. please read the copying file to obtain more information."
+"This program is free software and is distributed under the terms of the GPL "
+"license. Please read the file COPYING to obtain more information."
 msgstr ""
 
 #: src/final.cc:71
 #, c-format
-msgid "+ Loading final: "
+msgid "+ Loading finale: "
 msgstr ""
 
 #: src/final.cc:87 src/intro.cc:89
@@ -117,15 +118,15 @@ msgid "\t Can't load '%s' : '%s'\n"
 msgstr ""
 
 #: src/final.cc:186
-msgid "Good job !, Don Ceferino arribe to spaceship ..."
+msgid "Good job! Don Ceferino arrives at the spaceship..."
 msgstr ""
 
 #: src/final.cc:190
-msgid "uses a Mate (a drink) loaded with powder."
+msgid "drinks a Mate (a drink) loaded with powder."
 msgstr ""
 
 #: src/final.cc:194
-msgid "he escape with the spaceship rescuing the cow."
+msgid "He escapes from the spaceship rescuing the cow."
 msgstr ""
 
 #: src/final.cc:198
@@ -134,36 +135,36 @@ msgstr ""
 
 #: src/final.cc:202
 msgid ""
-"Though it seems like don ceferino is very hungry after all this action..."
+"Though it seems like Don Ceferino is very hungry after all this action..."
 msgstr ""
 
 #: src/final.cc:206
-msgid "At the end. Thanks for playing this game."
+msgid "The end. Thanks for playing this game."
 msgstr ""
 
-#: src/fuente2.cc:49 src/grafico.cc:74
+#: src/fuente2.cc:38
+#, c-format
+msgid "+ Loading: %s\n"
+msgstr ""
+
+#: src/fuente2.cc:50 src/grafico.cc:74
 #, c-format
 msgid "error : error reshaping the image: '%s' "
 msgstr ""
 
-#: src/fuente2.cc:61
-#, c-format
-msgid "+ loading: %s\n"
-msgstr ""
-
-#: src/fuente2.cc:107
+#: src/fuente2.cc:106
 #, c-format
 msgid "invalid bpp: %d\n"
 msgstr ""
 
-#: src/fuente2.cc:164
+#: src/fuente2.cc:163
 #, c-format
-msgid "Found %d fonts in bitmap\n"
+msgid "Found %d characters in bitmap\n"
 msgstr ""
 
-#: src/fuente2.cc:209
+#: src/fuente2.cc:190
 #, c-format
-msgid "'%c' not found in font tiles\n"
+msgid "Character %u not found in font tiles\n"
 msgstr ""
 
 #: src/grafico.cc:63
@@ -178,7 +179,7 @@ msgstr ""
 
 #: src/intro.cc:44
 #, c-format
-msgid "- Loading presentation: "
+msgid "+ Loading presentation: "
 msgstr ""
 
 #: src/intro.cc:73
@@ -187,23 +188,23 @@ msgid "+ Loading intro: "
 msgstr ""
 
 #: src/intro.cc:204
-msgid "Presents ..."
+msgid "Presents..."
 msgstr ""
 
 #: src/intro.cc:208
 msgid ""
-"the cowboy Don Ceferino lived very happy in his quite and modest house in "
-"the countryside"
+"The cowboy Don Ceferino lived very happily in his quiet and modest house in "
+"the countryside,"
 msgstr ""
 
 #: src/intro.cc:214
 msgid ""
-"but one day he reades in the newspaper that aliens were kidnaping all the "
+"but one day he read in the newspaper that aliens were kidnapping all the "
 "cows around"
 msgstr ""
 
 #: src/intro.cc:220
-msgid "whith not exception. The aliens arrive at the farm of don ceferino..."
+msgid "with no exception. The aliens arrived at the farm of Don Ceferino..."
 msgstr ""
 
 #: src/intro.cc:226
@@ -212,7 +213,7 @@ msgstr ""
 
 #: src/intro.cc:230
 msgid ""
-"but this doesn't end here.Don Ceferino is determinat to recover his precious "
+"But it doesn't end here. Don Ceferino is determined to recover his precious "
 "cow."
 msgstr ""
 
@@ -240,7 +241,7 @@ msgstr ""
 
 #: src/juego.cc:890 src/juego.cc:972 src/marcas.cc:149
 #, c-format
-msgid "Can't open the marcs file\n"
+msgid "Can't open the scores file\n"
 msgstr ""
 
 #: src/juego.cc:924
@@ -275,7 +276,7 @@ msgstr ""
 
 #: src/libgrafico.cc:116
 #, c-format
-msgid "+ Loading and reshapping images: "
+msgid "+ Loading and reshaping images: "
 msgstr ""
 
 #: src/libgrafico.cc:118
@@ -299,7 +300,7 @@ msgid ""
 msgstr ""
 
 #: src/marcas.cc:104
-msgid "best point"
+msgid "highest scores"
 msgstr ""
 
 #: src/menu.cc:73
@@ -334,7 +335,7 @@ msgstr ""
 
 #: src/mundo.cc:287
 #, c-format
-msgid "It doesn't exist the configuration file '%s',execute 'ceferinosetup':\n"
+msgid "The configuration file '%s' does not exist, execute 'ceferinosetup':\n"
 msgstr ""
 
 #: src/mundo.cc:318
@@ -344,7 +345,7 @@ msgstr ""
 
 #: src/mundo.cc:387
 #, c-format
-msgid "Error at changing scene\n"
+msgid "Error while changing scene\n"
 msgstr ""
 
 #: src/mundo.cc:429
@@ -364,23 +365,23 @@ msgstr ""
 
 #: src/nivel.cc:360
 #, c-format
-msgid "error: there is 2 cowboys in the same level\n"
+msgid "error: there are 2 cowboys in the same level\n"
 msgstr ""
 
 #: src/nivel.cc:387
 #, c-format
 msgid ""
-"error, the actual level does't define the posicionof the object 'gaucho'\n"
+"error, the actual level doesn't define the position of the object 'gaucho'\n"
 msgstr ""
 
 #: src/nivel.cc:391
 #, c-format
-msgid "error, no enemy was created in this level, you musthave at least one\n"
+msgid "error, no enemy was created in this level, you must have at least one\n"
 msgstr ""
 
 #: src/procesos.cc:70
 #, c-format
-msgid "error, already exist a cowboy in the scene, verify the level created\n"
+msgid "error, a cowboy already exist in the scene, verify the level created\n"
 msgstr ""
 
 #: src/tiro.cc:142
@@ -395,15 +396,16 @@ msgstr ""
 
 #: src/utils.cc:327
 #, c-format
-msgid "Creating the marcs file '%s'\n"
+msgid "Creating the scores file '%s'\n"
 msgstr ""
 
 #: src/utils.cc:332
 #, c-format
-msgid "Can't create the marcs file '%s'\n"
+msgid "Can't create the scores file '%s'\n"
 msgstr ""
 
 #: src/opciones.cc:74
 msgid ""
-"This feature has been temporaly disabled, please run 'ceferinosetup' instead."
+"This feature has been temporarily disabled, please run 'ceferinosetup' "
+"instead."
 msgstr ""

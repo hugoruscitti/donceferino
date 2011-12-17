@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ceferino-0.97\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-14 19:21-0300\n"
+"POT-Creation-Date: 2011-12-17 20:35+0100\n"
 "PO-Revision-Date: 2006-02-02 02:36+0100\n"
 "Last-Translator: Raül Cambeiro <raulcambeiro@ambtu.bcn.es>\n"
 "Language-Team: Catalan <ca@li.org>\n"
@@ -22,18 +22,18 @@ msgid "+ Starting audio system: "
 msgstr "+ S'està iniciant el sistema d'àudio: "
 
 #: src/audio.cc:79
-#, c-format
-msgid "- Audio system disable from options\n"
+#, fuzzy, c-format
+msgid "- Audio system disabled from options\n"
 msgstr "- Sistema d'àudio inhabilitat des de les opcions\n"
 
 #: src/audio.cc:87
-#, c-format
-msgid "- Sound system disable from options\n"
+#, fuzzy, c-format
+msgid "- Sound system disabled from options\n"
 msgstr "- Sistema de so inhabilitat des de les opcions\n"
 
 #: src/audio.cc:96
-#, c-format
-msgid "- Music system disable from options\n"
+#, fuzzy, c-format
+msgid "- Music system disabled from options\n"
 msgstr "- Sistema de música inhabilitat des de les opcions\n"
 
 #: src/audio.cc:142
@@ -47,8 +47,8 @@ msgid "Can't load '%s': %s\n"
 msgstr "No es pot obrir '%s': %s\n"
 
 #: src/audio.cc:156
-#, c-format
-msgid "- Disable sound system because of errors\n"
+#, fuzzy, c-format
+msgid "- Disabled sound system because of errors\n"
 msgstr "- S'està inhabilitant el sistema de so a causa dels errors\n"
 
 #: src/audio.cc:175
@@ -57,8 +57,8 @@ msgid "+ Loading music files: "
 msgstr "+ S'estan carregant els fitxers de música: "
 
 #: src/audio.cc:190
-#, c-format
-msgid "- Disable music system because of errors\n"
+#, fuzzy, c-format
+msgid "- Disabled music system because of errors\n"
 msgstr "- S'està inhabilitant el sistema de música a causa dels errors\n"
 
 #: src/comojugar.cc:37 src/menu.cc:86
@@ -100,9 +100,10 @@ msgstr ""
 "    Javier Da Silva"
 
 #: src/creditos.cc:189
+#, fuzzy
 msgid ""
-"You can know more about what we are doing visitting the web site of the "
-"Losers Proyect:\n"
+"You can know more about what we are doing visiting the web site of the "
+"Losers Project:\n"
 "\n"
 "www.losersjuegos.com.ar"
 msgstr ""
@@ -112,11 +113,12 @@ msgstr ""
 "www.losersjuegos.com.ar"
 
 #: src/creditos.cc:197
+#, fuzzy
 msgid ""
 "License:\n"
 "\n"
-"This program is free software and is distributed under theterms of the GPL "
-"license. please read the copying file to obtain more information."
+"This program is free software and is distributed under the terms of the GPL "
+"license. Please read the file COPYING to obtain more information."
 msgstr ""
 "Llicència:\n"
 "\n"
@@ -124,8 +126,8 @@ msgstr ""
 "llicència GPL. Llegiu el fitxer 'COPYING' per a més informació."
 
 #: src/final.cc:71
-#, c-format
-msgid "+ Loading final: "
+#, fuzzy, c-format
+msgid "+ Loading finale: "
 msgstr "+ S'està carregant el final: "
 
 #: src/final.cc:87 src/intro.cc:89
@@ -134,15 +136,18 @@ msgid "\t Can't load '%s' : '%s'\n"
 msgstr "\t No es pot carregar '%s': '%s'\n"
 
 #: src/final.cc:186
-msgid "Good job !, Don Ceferino arribe to spaceship ..."
+#, fuzzy
+msgid "Good job! Don Ceferino arrives at the spaceship..."
 msgstr "Ben fet! Don Ceferino arriba a la nau..."
 
 #: src/final.cc:190
-msgid "uses a Mate (a drink) loaded with powder."
+#, fuzzy
+msgid "drinks a Mate (a drink) loaded with powder."
 msgstr "usa un mate carregat amb pólvora..."
 
 #: src/final.cc:194
-msgid "he escape with the spaceship rescuing the cow."
+#, fuzzy
+msgid "He escapes from the spaceship rescuing the cow."
 msgstr "escapa de la nau i rescata la vaca."
 
 #: src/final.cc:198
@@ -150,37 +155,39 @@ msgid "It seems like all is getting back to normal."
 msgstr "Sembla que tot torna a la normalitat."
 
 #: src/final.cc:202
+#, fuzzy
 msgid ""
-"Though it seems like don ceferino is very hungry after all this action..."
+"Though it seems like Don Ceferino is very hungry after all this action..."
 msgstr "Però potser Don Ceferino té gana després de tanta acció..."
 
 #: src/final.cc:206
-msgid "At the end. Thanks for playing this game."
+#, fuzzy
+msgid "The end. Thanks for playing this game."
 msgstr "En fi. Gràcies per jugar!"
 
-#: src/fuente2.cc:49 src/grafico.cc:74
+#: src/fuente2.cc:38
+#, fuzzy, c-format
+msgid "+ Loading: %s\n"
+msgstr "+ S'està carregant: %s\n"
+
+#: src/fuente2.cc:50 src/grafico.cc:74
 #, c-format
 msgid "error : error reshaping the image: '%s' "
 msgstr "Error: error en redimensionar la imatge: '%s' "
 
-#: src/fuente2.cc:61
-#, c-format
-msgid "+ loading: %s\n"
-msgstr "+ S'està carregant: %s\n"
-
-#: src/fuente2.cc:107
+#: src/fuente2.cc:106
 #, c-format
 msgid "invalid bpp: %d\n"
 msgstr "bpp no vàlid: %d\n"
 
-#: src/fuente2.cc:164
-#, c-format
-msgid "Found %d fonts in bitmap\n"
+#: src/fuente2.cc:163
+#, fuzzy, c-format
+msgid "Found %d characters in bitmap\n"
 msgstr "S'han trobat %d caràcters al mapa de bits\n"
 
-#: src/fuente2.cc:209
-#, c-format
-msgid "'%c' not found in font tiles\n"
+#: src/fuente2.cc:190
+#, fuzzy, c-format
+msgid "Character %u not found in font tiles\n"
 msgstr "No es troba el caràcter '%c' a les tessel·les del tipus de lletra\n"
 
 #: src/grafico.cc:63
@@ -194,8 +201,8 @@ msgid "Can't show the graphic %d\n"
 msgstr "No es pot mostrar el gràfic %d\n"
 
 #: src/intro.cc:44
-#, c-format
-msgid "- Loading presentation: "
+#, fuzzy, c-format
+msgid "+ Loading presentation: "
 msgstr "- S'està carregant la presentació: "
 
 #: src/intro.cc:73
@@ -204,27 +211,31 @@ msgid "+ Loading intro: "
 msgstr "+ S'està carregant la introducció: "
 
 #: src/intro.cc:204
-msgid "Presents ..."
+#, fuzzy
+msgid "Presents..."
 msgstr "Presenta..."
 
 #: src/intro.cc:208
+#, fuzzy
 msgid ""
-"the cowboy Don Ceferino lived very happy in his quite and modest house in "
-"the countryside"
+"The cowboy Don Ceferino lived very happily in his quiet and modest house in "
+"the countryside,"
 msgstr ""
 "El gautxo Don Ceferino vivia molt feliç al seu tranquil i humil ranxo, al "
 "camp."
 
 #: src/intro.cc:214
+#, fuzzy
 msgid ""
-"but one day he reades in the newspaper that aliens were kidnaping all the "
+"but one day he read in the newspaper that aliens were kidnapping all the "
 "cows around"
 msgstr ""
 "Però un dia llegeix al diari que els extraterrestres estaven segrestant "
 "totes les vaques de la zona."
 
 #: src/intro.cc:220
-msgid "whith not exception. The aliens arrive at the farm of don ceferino..."
+#, fuzzy
+msgid "with no exception. The aliens arrived at the farm of Don Ceferino..."
 msgstr ""
 "Com era d'esperar, els extraterrestres arriben a la granja de Don Ceferino..."
 
@@ -233,8 +244,9 @@ msgid "and kidnapped his only cow."
 msgstr "i segresten la seva única vaca."
 
 #: src/intro.cc:230
+#, fuzzy
 msgid ""
-"but this doesn't end here.Don Ceferino is determinat to recover his precious "
+"But it doesn't end here. Don Ceferino is determined to recover his precious "
 "cow."
 msgstr "Però això no acaba aquí. Don Ceferino està disposat a recuperar-la."
 
@@ -261,8 +273,8 @@ msgid "level complete"
 msgstr "Nivell complet"
 
 #: src/juego.cc:890 src/juego.cc:972 src/marcas.cc:149
-#, c-format
-msgid "Can't open the marcs file\n"
+#, fuzzy, c-format
+msgid "Can't open the scores file\n"
 msgstr "No es pot obrir el fitxer de puntuacions\n"
 
 #: src/juego.cc:924
@@ -296,8 +308,8 @@ msgid "can't continue\n"
 msgstr "No es pot continuar\n"
 
 #: src/libgrafico.cc:116
-#, c-format
-msgid "+ Loading and reshapping images: "
+#, fuzzy, c-format
+msgid "+ Loading and reshaping images: "
 msgstr "+ S'estan carregant i redimensionant les imatges: "
 
 #: src/libgrafico.cc:118
@@ -326,7 +338,8 @@ msgstr ""
 "\n"
 
 #: src/marcas.cc:104
-msgid "best point"
+#, fuzzy
+msgid "highest scores"
 msgstr "Millors puntuacions"
 
 #: src/menu.cc:73
@@ -360,8 +373,8 @@ msgid "+ Starting the SDL library:"
 msgstr "+ S'està iniciant la biblioteca SDL: "
 
 #: src/mundo.cc:287
-#, c-format
-msgid "It doesn't exist the configuration file '%s',execute 'ceferinosetup':\n"
+#, fuzzy, c-format
+msgid "The configuration file '%s' does not exist, execute 'ceferinosetup':\n"
 msgstr ""
 "El fitxer de configuració '%s' no existeix. Executeu 'ceferinosetup':\n"
 
@@ -371,8 +384,8 @@ msgid "Incorrect '%s' parameter\n"
 msgstr "Paràmetre incorrecte: '%s'\n"
 
 #: src/mundo.cc:387
-#, c-format
-msgid "Error at changing scene\n"
+#, fuzzy, c-format
+msgid "Error while changing scene\n"
 msgstr "Error en canviar l'escena\n"
 
 #: src/mundo.cc:429
@@ -391,25 +404,25 @@ msgid "Can't open the file '%s'"
 msgstr "No es pot obrir el fitxer '%s'"
 
 #: src/nivel.cc:360
-#, c-format
-msgid "error: there is 2 cowboys in the same level\n"
+#, fuzzy, c-format
+msgid "error: there are 2 cowboys in the same level\n"
 msgstr "Error: hi ha 2 gautxos en el mateix nivell\n"
 
 #: src/nivel.cc:387
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"error, the actual level does't define the posicionof the object 'gaucho'\n"
+"error, the actual level doesn't define the position of the object 'gaucho'\n"
 msgstr "Error: el nivell actual no defineix la posició de l'objecte 'gaucho'\n"
 
 #: src/nivel.cc:391
-#, c-format
-msgid "error, no enemy was created in this level, you musthave at least one\n"
+#, fuzzy, c-format
+msgid "error, no enemy was created in this level, you must have at least one\n"
 msgstr ""
 "Error: no hi ha enemics en aquest nivell; n'hi ha d'haver com a mínim un\n"
 
 #: src/procesos.cc:70
-#, c-format
-msgid "error, already exist a cowboy in the scene, verify the level created\n"
+#, fuzzy, c-format
+msgid "error, a cowboy already exist in the scene, verify the level created\n"
 msgstr "Error: ja existeix un gautxo a l'escena; verifiqueu el nivell creat\n"
 
 #: src/tiro.cc:142
@@ -423,21 +436,26 @@ msgid "Can't copy the image\n"
 msgstr "No es pot copiar la imatge\n"
 
 #: src/utils.cc:327
-#, c-format
-msgid "Creating the marcs file '%s'\n"
+#, fuzzy, c-format
+msgid "Creating the scores file '%s'\n"
 msgstr "S'està creant el fitxer de puntuacions '%s'\n"
 
 #: src/utils.cc:332
-#, c-format
-msgid "Can't create the marcs file '%s'\n"
+#, fuzzy, c-format
+msgid "Can't create the scores file '%s'\n"
 msgstr "No es pot crear el fitxer de puntuacions '%s'\n"
 
 #: src/opciones.cc:74
+#, fuzzy
 msgid ""
-"This feature has been temporaly disabled, please run 'ceferinosetup' instead."
+"This feature has been temporarily disabled, please run 'ceferinosetup' "
+"instead."
 msgstr ""
 "Aquesta característica ha estat inhabilitada temporalment. Executeu "
 "'ceferinosetup' en el seu lloc."
+
+#~ msgid "best point"
+#~ msgstr "Millors puntuacions"
 
 #~ msgid "here"
 #~ msgstr "aquí"
