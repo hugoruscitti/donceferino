@@ -22,7 +22,7 @@ msgstr "+ Iniciando sistema de audio: "
 #: src/audio.cc:79
 #, c-format
 msgid "- Audio system disable from options\n"
-msgstr "+ Sistema de audio deshabilidado desde opciones\n"
+msgstr "+ Sistema de audio deshabilitado desde opciones\n"
 
 #: src/audio.cc:87
 #, c-format
