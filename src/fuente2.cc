@@ -58,7 +58,7 @@ fuente2 :: fuente2 (int modo)
 
 	cargar_identificar_recs ();
 	
-	printf (_("+ loading: %s\n"), ruta);
+	printf (_("+ Loading: %s\n"), ruta);
 }
 
 
@@ -161,7 +161,7 @@ void fuente2 :: cargar_identificar_recs (void)
 	}
 
 	letras = indice;
-	printf (_("Found %d fonts in bitmap\n"), indice);
+	printf (_("Found %d characters in bitmap\n"), indice);
 }
 
 fuente2 :: ~fuente2 ()

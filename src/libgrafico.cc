@@ -113,7 +113,7 @@ int libgrafico :: crear_graficos(void)
 int libgrafico :: cargar_imagenes(void)
 {
 	if (modo_video)
-		printf(_("+ Loading and reshapping images: "));
+		printf(_("+ Loading and reshaping images: "));
 	else
 		printf(_("+ Loading images: "));
 

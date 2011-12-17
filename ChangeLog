@@ -9,6 +9,10 @@
 	this is needed for the newer version number in 'configure'.
 	Many of these files should be removed from the svn repository, because
 	they can be regenerated.
+	* src/intro.cc, src/creditos.cc, src/final.cc, src/utils.cc,
+	src/audio.cc, src/marcas.cc, src/juego.cc, src/nivel.cc,
+	src/libgrafico.cc, src/procesos.cc, src/fuente2.cc, src/opciones.cc,
+	src/mundo.cc: Fixed spelling errors in the English texts.
 
 2011-12-17  gettextize  <bug-gnu-gettext@gnu.org>
 

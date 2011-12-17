@@ -284,7 +284,7 @@ int mundo :: cargar_opciones(char *ruta)
 
 	if ((arch = fopen(ruta_completa, "rt")) == NULL)
 	{
-		printf(_("It doesn't exist the configuration file '%s',"\
+		printf(_("The configuration file '%s' does not exist, "\
 					"execute 'ceferinosetup':\n"),\
 					ruta_completa);
 		opciones.musica=1;
@@ -384,7 +384,7 @@ void mundo :: intercambiar_escenas(void)
 
 	if (actual->iniciar(this, opciones.modo_video, screen))
 	{
-		printf(_("Error at changing scene\n"));
+		printf(_("Error while changing scene\n"));
 		terminar();
 	}
 	

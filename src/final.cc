@@ -68,7 +68,7 @@ int final :: iniciar(class mundo *_pmundo, int _modo_video, SDL_Surface *_screen
 	strcpy(base, DATADIR "/ima/");	
 	modo_video = _modo_video;
 	
-	printf(_("+ Loading final: "));
+	printf(_("+ Loading finale: "));
 
 	
 	// carga todas las imagenes
@@ -183,15 +183,15 @@ void final :: cambiar_etapa(int etapa)
 	switch (etapa)
 	{
 		case F1:
-		strcpy(mensaje,_("Good job !, Don Ceferino arribe to spaceship ..."));
+		strcpy(mensaje,_("Good job! Don Ceferino arrives at the spaceship..."));
 		break;
 
 		case F2:
-		strcpy(mensaje,_("uses a Mate (a drink) loaded with powder."));
+		strcpy(mensaje,_("drinks a Mate (a drink) loaded with powder."));
 		break;
 
 		case F3:
-		strcpy(mensaje,_("he escape with the spaceship rescuing the cow."));
+		strcpy(mensaje,_("He escapes with the spaceship rescuing the cow."));
 		break;
 
 		case F4:
@@ -199,11 +199,11 @@ void final :: cambiar_etapa(int etapa)
 		break;
 
 		case F5:
-		strcpy(mensaje,_("Though it seems like don ceferino is very hungry after all this action..."));
+		strcpy(mensaje,_("Though it seems like Don Ceferino is very hungry after all this action..."));
 		break;
 
 		case F6:
-		strcpy(mensaje,_("At the end. Thanks for playing this game."));
+		strcpy(mensaje,_("The end. Thanks for playing this game."));
 		break;
 
 			

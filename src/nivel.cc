@@ -357,7 +357,7 @@ int nivel :: verificar_nivel(void)
 				case 'a':
 					if (hay_gaucho == 1)
 					{
-						printf(_("error: there is 2 cowboys in the same level\n"));
+						printf(_("error: there are 2 cowboys in the same level\n"));
 						return 0;
 					}
 					else
@@ -384,12 +384,12 @@ int nivel :: verificar_nivel(void)
 		return 1;
 
 	if (!hay_gaucho)
-		printf(_("error, the actual level does't define the posicion"\
-					"of the object 'gaucho'\n")); 
+		printf(_("error, the actual level doesn't define the position"\
+					" of the object 'gaucho'\n")); 
 
 	if (!hay_pelota)
 		printf(_("error, no enemy was created in this level, you must"\
-					"have at least one\n")); 
+					" have at least one\n")); 
 		
 	return 0;
 }

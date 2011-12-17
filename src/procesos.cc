@@ -67,7 +67,7 @@ void procesos :: crear_gaucho(grafico *grafico, int x, int y)
 {	
 	if (gaucho != NULL)
 	{
-		printf(_("error, already exist a cowboy in the scene, "\
+		printf(_("error, a cowboy already exist in the scene, "\
 					"verify the level created\n"));
 		exit(-1);
 	}

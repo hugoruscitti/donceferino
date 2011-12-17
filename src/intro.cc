@@ -41,7 +41,7 @@ intro :: intro(void)
 
 intro :: ~intro(void)
 {
-	printf(_("- Loading presentation: "));
+	printf(_("+ Loading presentation: "));
 
 	for (int i=0; i<6; i++)
 		SDL_FreeSurface(imas[i]);
@@ -201,25 +201,25 @@ void intro :: cambiar_etapa(int etapa)
 	switch (etapa)
 	{
 		case PRESENTA:
-		strcpy(mensaje,_("Presents ..."));
+		strcpy(mensaje,_("Presents..."));
 		break;
 
 		case SENTADO:
-		strcpy(mensaje,_("the cowboy Don Ceferino lived "\
-					"very happy in his quite and modest "\
-					"house in the countryside"));
+		strcpy(mensaje,_("The cowboy Don Ceferino lived "\
+					"very happily in his quiet and modest "\
+					"house in the countryside,"));
 		break;
 
 		case LEE:
-		strcpy(mensaje,_("but one day he reades in the "\
+		strcpy(mensaje,_("but one day he read in the "\
 					"newspaper that aliens were "\
-					"kidnaping all the cows around"));
+					"kidnapping all the cows around"));
 		break;
 
 		case ASOMBRO:
-		strcpy(mensaje,_("whith not exception. The aliens "\
-					"arrive at the farm of "\
-					"don ceferino..."));
+		strcpy(mensaje,_("with no exception. The aliens "\
+					"arrived at the farm of "\
+					"Don Ceferino..."));
 		break;
 
 		case RAPTO:
@@ -227,9 +227,9 @@ void intro :: cambiar_etapa(int etapa)
 		break;
 
 		case VS:
-		strcpy(mensaje,_("but this doesn't end here."\
+		strcpy(mensaje,_("But it doesn't end here. "\
 					"Don Ceferino is "\
-					"determinat to recover "\
+					"determined to recover "\
 					"his precious cow."));
 		break;
 	}
