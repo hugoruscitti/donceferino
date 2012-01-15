@@ -1,3 +1,7 @@
+2012-01-15  Roland Clobus <rclobus@rclobus.nl>
+	* autogen.sh, macros/gnome-autogen.sh: Added bootstrap script, and an
+	embedded copy from the gnome-common package.
+
 2011-12-17  Roland Clobus <rclobus@rclobus.nl>
 	* configure.ac: Update for the new generated scripts.
 	* mkinstalldirs, m4/ChangeLog, configure, config.rpath, Makefile.in,
