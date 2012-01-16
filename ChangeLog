@@ -1,3 +1,6 @@
+2012-01-16  Roland Clobus <rclobus@rclobus.nl>
+	* various: Removed and ignored all generated files by autogen.sh.
+
 2012-01-15  Roland Clobus <rclobus@rclobus.nl>
 	* autogen.sh, macros/gnome-autogen.sh: Added bootstrap script, and an
 	embedded copy from the gnome-common package.
