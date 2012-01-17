@@ -253,7 +253,7 @@ void mundo :: eliminar(void)
  *
  * \return 1 en caso de error
  */
-int mundo :: cargar_opciones(char *ruta)
+int mundo :: cargar_opciones(const char *ruta)
 {
 	FILE *arch;
 	char buffer[200];

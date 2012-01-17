@@ -60,7 +60,7 @@ class mundo
 		int iniciar(void);
 		void correr(void);
 		void terminar(void);
-		int cargar_opciones(char *ruta);
+		int cargar_opciones(const char *ruta);
 		void cambiar_escena(int nueva_escena);
 		void reiniciar_reloj(void);
 		void eliminar(void);

@@ -33,7 +33,7 @@ class grafico
 {
 	public:
 		~grafico();
-		int iniciar(char *ruta, int f, int c, int punto_x, int punto_y, int conf);
+		int iniciar(const char *ruta, int f, int c, int punto_x, int punto_y, int conf);
 		void imprimir(int i, SDL_Surface *destino, SDL_Rect *rect, int x, int y, int flip);
 		void imprimir_parte(int i, SDL_Surface *dest, SDL_Rect *rect, int x, int y, int h);
 		int get_h(void) {return h;};

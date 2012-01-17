@@ -50,7 +50,7 @@ class actor
 		SDL_Rect rect;
 		
 		class juego *pjuego;
-		void cargar_animacion(int *vec, char *cuadros);
+		void cargar_animacion(int *vec, const char *cuadros);
 };
 
 #endif
