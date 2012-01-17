@@ -1,6 +1,7 @@
 2012-01-17  Roland Clobus <rclobus@rclobus.nl>
 	* src/main_op.cc, src/mundo.h, src/actor.h, src/grafico.cc,
 	src/actor.cc, src/grafico.h, src/mundo.cc: Removed compiler warnings.
+	* Makefile.am: Added bootstrap script to released tarball.
 
 2012-01-16  Roland Clobus <rclobus@rclobus.nl>
 	* various: Removed and ignored all generated files by autogen.sh.
