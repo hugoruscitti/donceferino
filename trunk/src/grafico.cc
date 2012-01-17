@@ -48,7 +48,7 @@ grafico :: ~grafico()
  *
  * \return 1 en caso de error
  */
-int grafico ::  iniciar (char * ruta, int f, int c, int punto_x, int punto_y, int conf)
+int grafico ::  iniciar (const char * ruta, int f, int c, int punto_x, int punto_y, int conf)
 {
 	char ruta_completa[150] = DATADIR "/ima/";
 

@@ -36,7 +36,7 @@ actor :: ~actor(void)
  * \param vec vector del estado
  * \param cuadros cadena con el formato "1,2,3" (cuadros 1 -> 2 -> 3)
  */
-void actor :: cargar_animacion(int *vec, char *cuadros)
+void actor :: cargar_animacion(int *vec, const char *cuadros)
 {
 	char *p=NULL;
 	char buffer[100];

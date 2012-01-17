@@ -30,6 +30,7 @@
 #include <stdio.h>
 #include "main_op.h"
 
+static int cargar_opciones(const char *ruta, struct opciones *opciones);
 
 /*!
  * \brief Programa principal del menu de opciones
@@ -271,7 +272,7 @@ void imprimir(SDL_Surface *screen, SDL_Surface *fondo, SDL_Surface *items, struc
  * \param ruta archivo que contiene los datos iniciales
  * \param opciones estructura destino
  */
-int cargar_opciones(char *ruta, struct opciones *opciones)
+int cargar_opciones(const char *ruta, struct opciones *opciones)
 {
 	FILE *arch;
 	char buffer[200];
