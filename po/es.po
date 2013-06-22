@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ceferino\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-17 20:35+0100\n"
+"POT-Creation-Date: 2013-06-22 09:54+0200\n"
 "PO-Revision-Date: 2006-1-7 HO:MI+ZONE\n"
 "Last-Translator: Hugo Ruscitti <hugoruscitti@gmail.com>\n"
 "Language-Team: Spanish <LL@li.org>\n"
@@ -372,22 +372,22 @@ msgstr "salir"
 msgid "+ Starting the SDL library:"
 msgstr "+ Iniciando la biblioteca SDL:"
 
-#: src/mundo.cc:287
+#: src/mundo.cc:290
 #, fuzzy, c-format
 msgid "The configuration file '%s' does not exist, execute 'ceferinosetup':\n"
 msgstr "No existe el archivo de configuración '%s', ejecute 'ceferinosetup':\n"
 
-#: src/mundo.cc:318
+#: src/mundo.cc:321
 #, c-format
 msgid "Incorrect '%s' parameter\n"
 msgstr "Parámetro incorrecto: '%s'\n"
 
-#: src/mundo.cc:387
+#: src/mundo.cc:390
 #, fuzzy, c-format
 msgid "Error while changing scene\n"
 msgstr "Error al intercambiar de escena\n"
 
-#: src/mundo.cc:429
+#: src/mundo.cc:432
 #, c-format
 msgid "Can't find the file '%s'\n"
 msgstr "No se encuentra el archivo '%s'\n"
