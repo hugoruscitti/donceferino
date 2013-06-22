@@ -1,3 +1,6 @@
+2013-06-22  Roland Clobus <rclobus@rclobus.nl>
+	* src/mundo.cc: Use UTF-8 encoding in the call to set the caption.
+
 2012-01-17  Roland Clobus <rclobus@rclobus.nl>
 	* src/main_op.cc, src/mundo.h, src/actor.h, src/grafico.cc,
 	src/actor.cc, src/grafico.h, src/mundo.cc: Removed compiler warnings.

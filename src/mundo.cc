@@ -93,7 +93,10 @@ int mundo :: iniciar (void)
 	ico = IMG_Load (DATADIR "/ima/icono.png");
 		
 	SDL_ShowCursor(SDL_DISABLE);
-	SDL_WM_SetCaption("Don Ceferino Hazaña - ver " VERSION, NULL);
+	// SDL uses UTF-8 
+	// U+00F1 is UTF-8:c3 b1 latin small letter n with tilde
+	// U+0061: latin small letter a
+	SDL_WM_SetCaption("Don Ceferino Haza\xc3\xb1\x61 - ver " VERSION, NULL);
 	
 	if (ico)
 	{
