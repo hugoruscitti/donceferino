@@ -28,6 +28,9 @@
 #include <SDL/SDL_mixer.h>
 #include <SDL/SDL.h>
 
+#define MAX_SONIDOS 12
+#define MAX_MUSICAS  2
+
 /*!
  * \brief Subsistema de audio
  */
@@ -49,8 +52,8 @@ class audio
 		void descargar_musicas(void);
 		int canal_musica;
 
-		Mix_Chunk *sonidos[11];
-		Mix_Music *musicas[2];
+		Mix_Chunk *sonidos[MAX_SONIDOS];
+		Mix_Music *musicas[MAX_MUSICAS];
 		
 };
 

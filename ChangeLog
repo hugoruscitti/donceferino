@@ -1,3 +1,7 @@
+2017-09-30 Jose Jorge Enriquez <josejorge@gmail.com>
+    * src/audio.h, audio.c: Fixed *sonidos array size declaration and
+    moved size values to #define macros.
+
 2013-06-22  Roland Clobus <rclobus@rclobus.nl>
 	* src/mundo.cc: Use UTF-8 encoding in the call to set the caption.
 

@@ -141,7 +141,7 @@ void audio :: cargar_sonidos(void)
 	
 	printf(_("+ Loading sound files: "));
 
-	for (i=0; i<12; i++)
+	for (i=0; i<MAX_SONIDOS; i++)
 	{
 		printf(".");
 		fflush(stdin);
@@ -174,7 +174,7 @@ void audio :: cargar_musicas(void)
 	
 	printf(_("+ Loading music files: "));
 
-	for (i=0; i<2; i++)
+	for (i=0; i<MAX_MUSICAS; i++)
 	{
 		printf(".");
 		fflush(stdin);
@@ -203,7 +203,7 @@ void audio :: descargar_sonidos(void)
 {
 	int i;
 	
-	for (i=0; i < 12; i++)
+	for (i=0; i < MAX_SONIDOS; i++)
 		Mix_FreeChunk(sonidos[i]);
 }
 
