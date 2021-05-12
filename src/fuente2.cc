@@ -417,8 +417,7 @@ char * fuente2 :: saltar_palabra (char * cadena)
 			return cadena + i;
 	}
 
-	if (cadena [i] == '\0')
-		return NULL;
+	return NULL;
 }
 
 void fuente2 :: imprimir (SDL_Surface * dst, char * cadena, int x, \
